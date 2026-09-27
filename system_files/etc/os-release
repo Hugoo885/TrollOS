@@ -1,12 +1,12 @@
 NAME="TrollOS"
 PRETTY_NAME="TrollOS"
-ID=trollos
+ID=bazzite
 ID_LIKE="fedora"
-VERSION="1"
-VERSION_ID="1"
+VERSION="44"
+VERSION_ID=44
 HOME_URL="https://github.com/Hugoo885/TrollOS"
 DOCUMENTATION_URL="https://github.com/Hugoo885/TrollOS"
 SUPPORT_URL="https://github.com/Hugoo885/TrollOS/issues"
 BUG_REPORT_URL="https://github.com/Hugoo885/TrollOS/issues"
 VARIANT="TrollOS"
-VARIANT_ID=trollos
+VARIANT_ID=bazzite-gnome
