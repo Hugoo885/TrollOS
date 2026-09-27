@@ -5,6 +5,10 @@ set -ouex pipefail
 # Copy the contents of system_files/ of the git repo to /
 cp -avf "/ctx/system_files"/. /
 
+# Restore Terra Mesa GPG key required by the Terra repository
+curl -fsSL https://repos.fyralabs.com/terra.key \
+  -o /etc/pki/rpm-gpg/RPM-GPG-KEY-terra44-mesa
+
 ### Install packages
 
 # Packages can be installed from any enabled yum repo on the image.
