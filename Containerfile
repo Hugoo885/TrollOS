@@ -35,7 +35,6 @@ RUN --mount=type=bind,from=ctx,source=/,target=/ctx \
     --mount=type=cache,dst=/var/log \
     --mount=type=tmpfs,dst=/tmp \
     /ctx/build.sh
-    dnf5 install -y fastfetch
 
 
 ### LINTING
